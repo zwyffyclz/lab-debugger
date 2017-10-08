@@ -47,7 +47,7 @@ public class Calculator {
      * Multiply operation
      */
     public double mul(double operand) {
-        value /= operand;
+        value *= operand;
         return value;
     }
 }
